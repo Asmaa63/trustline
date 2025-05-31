@@ -1,0 +1,98 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background: linear-gradient(to bottom, #fff8e1, #fffde7);
+  color: #333;
+  direction: ltr;
+  overflow-x: hidden;
+}
+
+.navbar-brand i {
+  color: #fdd835;
+}
+
+.custom-navbar {
+  background: linear-gradient(to right, #fff, #fff9c4);
+  border-bottom: 3px solid #fbc02d;
+  transition: all 0.4s ease-in-out;
+}
+
+.navbar-nav .nav-link {
+  color: #4e342e;
+  font-weight: 500;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #fdd835;
+  border-bottom: 2px solid #fdd835;
+}
+
+.btn-lang {
+  background-color: #fdd835;
+  color: #333;
+  padding: 6px 16px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.btn-lang:hover {
+  background-color: #fbc02d;
+  transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero-section {
+  background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+              url('/images/pexels-fauxels-3184299.jpg') center/cover no-repeat;
+  min-height: 80vh;
+  padding: 140px 20px;
+}
+
+.btn-custom {
+  background-color: #fdd835;
+  color: #333;
+  transition: 0.3s ease;
+  border: none;
+  border-radius: 30px;
+}
+
+.btn-custom:hover {
+  background-color: #fbc02d;
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  background: linear-gradient(to right, #00796b, #004d40);
+}
+
+.footer h6, .footer h5 {
+  color: #fffde7;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.footer a:hover,
+.footer i:hover {
+  color: #fdd835;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero-section h1 {
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+}

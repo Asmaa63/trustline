@@ -1,0 +1,84 @@
+body {
+  font-family: 'Cairo', sans-serif;
+  background: linear-gradient(to bottom, #fff8e1, #fffde7);
+  color: #333;
+  direction: rtl;
+  overflow-x: hidden;
+}
+
+.navbar-brand i {
+  color: #fdd835;
+}
+
+.custom-navbar {
+  background: linear-gradient(to right, #fff, #fff9c4);
+  border-bottom: 3px solid #fbc02d;
+  transition: all 0.4s ease-in-out;
+}
+
+.navbar-nav .nav-link {
+  color: #4e342e;
+  font-weight: 500;
+  margin-left: 10px;
+  transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+  color: #fdd835;
+  border-bottom: 2px solid #fdd835;
+}
+
+.btn-lang {
+  background-color: #fdd835;
+  color: #333;
+  padding: 6px 16px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+/* About section */
+.about-section {
+   background: linear-gradient(to lift, #fff, #fff9c4);;
+}
+.about-section h2 {
+  color: #181204;
+}
+
+/* صورة تتحرك يمين ويسار */
+.moving-img {
+  animation: floatImage 6s ease-in-out infinite;
+}
+
+.list-unstyled i{
+  color: #fbc02d;
+}
+@keyframes floatImage {
+  0% { transform: translateX(0px); }
+  50% { transform: translateX(20px); }
+  100% { transform: translateX(0px); }
+}
+
+/* Footer */
+/* Footer */
+.footer {
+  background: linear-gradient(to right, #00796b, #004d40);
+}
+
+.footer h6, .footer h5 {
+  color: #fffde7;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer a {
+  color: #ffffff;
+  transition: 0.3s;
+}
+
+.footer a:hover,
+.footer i:hover {
+  color: #fdd835;
+}
